@@ -5,6 +5,8 @@ function AdminNavBar({ onChangePage }) {
     <nav>
       <button onClick={() => onChangePage("Form")}>New Question</button>
       <button onClick={() => onChangePage("List")}>View Questions</button>
+      {/* <button onClick={() => onChangePage("List")}>Add Questions</button> */}
+
     </nav>
   );
 }
